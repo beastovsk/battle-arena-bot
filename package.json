@@ -1,23 +1,16 @@
 {
-  "name": "telegram-game-backend",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.js",
-    "lint": "eslint . --ext .js"
-  },
-  "dependencies": {
-    "@types/morgan": "^1.9.9",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.1.4",
-    "telegraf": "^3.38.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.7.0"
-  }
+	"name": "telegram-game-backend",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"lint": "eslint . --ext .js"
+	},
+	"dependencies": {
+		"node-telegram-bot-api": "^0.66.0",
+		"nodemon": "^3.1.4"
+	},
+	"devDependencies": {
+		"eslint": "^8.7.0"
+	}
 }
