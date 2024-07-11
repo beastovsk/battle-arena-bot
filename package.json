@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"scripts": {
-		"dev": "nodemon src/index.js",
+		"dev": "nodemon src/bot/index.js",
 		"lint": "eslint . --ext .js"
 	},
 	"dependencies": {
